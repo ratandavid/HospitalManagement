@@ -1,0 +1,11 @@
+.patientStats{
+    margin-top:30px;
+}
+.patients{
+    margin-top: 1%;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    border-radius: 6px;
+    margin-bottom: 1%;
+}

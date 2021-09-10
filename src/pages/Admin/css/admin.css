@@ -1,0 +1,15 @@
+.body{
+    background-color:#f2f8ff ;
+}
+.headerContent {
+    position: sticky;
+    margin-top: 1%;
+    top: 0;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    margin-bottom: 1%;
+}
+
+
+

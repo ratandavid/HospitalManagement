@@ -1,0 +1,75 @@
+.headerpart{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.Addone button{
+    color: #fff;
+    background: #00a4e5;
+    text-align: center;
+    padding:10px 30px 10px 30px;
+    border: none;
+    box-shadow: none!important;
+    border-radius: 2px;
+    transition: 1s all;
+}
+
+.Addone button:hover{
+    color: #00a4e5;
+    background: #fff;
+}
+
+.list {
+    display: grid;
+    align-content: center;
+
+}
+.headerpart ul{
+    display: flex;
+    flex-direction: row;
+}
+.headerpart ul li{
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+.headerpart ul li a{
+    color:#000;
+    text-decoration: none!important;
+}
+.headerpart ul li:hover{
+    text-decoration: none!important;
+}
+
+
+
+@media only screen and (min-device-width : 280px) and (max-device-width :575px){
+	.headerpart{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: baseline;
+    }
+    .headerpart .Addone {
+        color: #fff;
+        background: #00a4e5;
+        text-align: center;
+        width: 100%;
+        padding: 10px 30px 10px 30px;
+        border: none;
+        border-radius: 2px;
+    }
+
+    .headerpart ul{
+        display: flex;
+        padding: 0px;
+        margin-top: 10px;
+        flex-direction: row;
+        margin-bottom: 0px;
+    }
+    .headerpart ul li {
+        list-style: none;
+        padding: 0px;
+        padding-right: 39px;
+    }
+}

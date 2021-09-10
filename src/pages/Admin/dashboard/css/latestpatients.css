@@ -1,0 +1,41 @@
+.latestpatients{
+    margin-top: 20px;
+}
+
+
+.table-dark {
+    color: grey;
+}
+
+.table-dark .start{
+    padding: 10px!important;
+    border: none;
+    background: #fff;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.table-dark .last{
+    border: none;
+    background: #fff;
+    padding: 10px!important;
+    border-radius: 0px 6px 6px 0px;
+}
+.table-dark .middle{
+    border: none;
+    background: #fff;
+    padding: 10px!important;
+}
+
+.tbody{
+    background:#fff;    
+    margin-top:10px;
+    border-radius: 10px;
+}
+
+tbody:before {
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+    background-color: #f2f8ff;
+}

@@ -1,0 +1,45 @@
+.reportContent{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.reportcard {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.report-content{
+    display: flex;
+    padding: 10px;
+}
+.report-content .fa-door-open{
+    font-size: 40px;
+    color:#3ca4f4;
+}
+
+.report-content .injection{
+    font-size: 20px;
+    color:red!important;
+}
+
+.report-content .fa-bed{
+    font-size: 40px;
+    color:#5ac399;
+}
+.report-content .fa-shield-virus{
+    font-size: 40px;
+    color:red;
+}
+.report-content p{
+    width:100%;
+    margin-bottom: 10px;
+    max-width: 300px;
+    margin:0px auto;
+    text-transform: uppercase;
+}
+
+
+.reportbottom-content p{
+    color:grey;
+    margin-bottom: 10px;
+}

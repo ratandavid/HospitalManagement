@@ -1,0 +1,50 @@
+.dashboard{
+    margin-top: 1%;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    margin-bottom: 1%;
+    border-radius: 6px;
+}
+.dashboardContent{
+    margin-top: 20px;
+}
+.fa-user-circle{
+    font-size: 50px;
+    padding-right: 10px;
+    color:#fd686b;
+}
+
+.totalpaitents, .totalStaffs, .totalRooms, .totalCars {
+    display: flex;
+}
+
+
+.totalStaffs .fa-shield-alt{
+    font-size: 50px;
+    color: #ff8919;
+    padding-right: 10px;
+}
+
+
+.text p{
+    margin-bottom: 0px!important;
+    margin-top: 0px;
+    color:grey;
+}
+
+.totalRooms .fa-home{
+    font-size: 50px;
+    color: #00a4e5;
+    padding-right: 10px;
+}
+
+.totalCars .fa-heartbeat{
+    font-size: 50px;
+    color: #209cff;
+    padding-right: 10px;
+}
+
+.report-text{
+    margin-top: 20px;
+}
